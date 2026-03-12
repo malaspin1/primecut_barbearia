@@ -1,23 +1,135 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <!--FONT AWESOME--><link 
+    <!--FONT AWESOME-->
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
       integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
-    /> <!--FONT AWESOME-->
+    />
+    <!--FONT AWESOME-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"/>
+    <title>Prime Cut - BarberShop</title>
+    <link rel="shortcut icon" href="src/favicon64.ico" sizes="64x64" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
+    <header id="header">
+      <h2 id="headertittle">PRIME CUT</h2>
+      <ul id="headerlinks">
+        <li><a href="#home" class="headerlink">Inicio</a></li>
+        <li><a href="#about" class="headerlink">Sobre Nós</a></li>
+        <li><a href="#workers" class="headerlink">Profissionais</a></li>
+        <li><a href="#footer" class="headerlink">Contato</a></li>
+      </ul>
+    </header>
+    <section id="home">
+      <div id="mainhomearea">
+        <h1 id="mainareatittle">PRIME CUT</h1>
+        <span id="barbershopspan">BARBERSHOP</span>
+      </div>
+    </section>
+    <section id="about">
+      <div id="about-container">
+        <h2>Sobre Nós</h2>
 
+        <p>
+          Na <strong>PrimeCut Barbershop</strong>, acreditamos que um bom corte
+          vai muito além da aparência — ele representa estilo, confiança e
+          personalidade. Fundada em <strong>2017</strong>, nossa barbearia
+          nasceu com o objetivo de oferecer um espaço onde tradição e
+          modernidade se encontram para proporcionar uma experiência completa de
+          cuidado masculino.
+        </p>
 
+        <p>
+          Desde o início, buscamos unir técnicas clássicas da barbearia
+          tradicional com as tendências atuais, sempre prezando pela qualidade,
+          atenção aos detalhes e atendimento personalizado. Cada cliente que
+          passa por nossa cadeira recebe um serviço feito com dedicação,
+          respeito e profissionalismo.
+        </p>
 
+        <p>
+          Mais do que um lugar para cortar o cabelo ou aparar a barba, a
+          <strong>PrimeCut Barbershop</strong> é um ambiente pensado para que
+          nossos clientes se sintam à vontade, relaxem e saiam daqui com a
+          melhor versão de si mesmos.
+        </p>
+
+        <p>
+          Ao longo dos anos, construímos uma comunidade de clientes que confiam
+          no nosso trabalho e fazem parte da nossa história. Seguimos evoluindo
+          todos os dias para continuar oferecendo estilo, qualidade e uma
+          experiência única em cada visita.
+        </p>
+      </div>
+    </section>
+    <section id="workers">
+      <span id="workerspan">Nossos Profissionais</span>
+      <div id="workers-container">
+        <div class="worker">
+          <img class="barberimage" src="src/barber_one.jpg" />
+          <h4>Lucas Andrade</h4>
+        </div>
+        <div class="worker">
+          <img class="barberimage" src="src/barber_two.jpg" />
+          <h4>Matheus Oliveira</h4>
+        </div>
+        <div class="worker">
+          <img class="barberimage" src="src/barber_three.jpg " />
+          <h4>Gustavo Almeida</h4>
+        </div>
+      </div>
+    </section>
+    <section id="services">
+      <span id="servicesspan">Nossos Serviços</span>
+      <div id="services-container">
+        <div class="service">
+          <p class="servicename">Corte Masculino</p>
+          <p class="serviceprice">R$35,00</p>
+        </div>
+        <div class="service">
+          <p class="servicename">Corte + Barba</p>
+          <p class="serviceprice">R$55,00</p>
+        </div>
+        <div class="service">
+          <p class="servicename">Barba Completa</p>
+          <p class="serviceprice">R$25,00</p>
+        </div>
+        <div class="service">
+          <p class="servicename">Pezinho</p>
+          <p class="serviceprice">R$10,00</p>
+        </div>
+        <div class="service">
+          <p class="servicename">Corte Infantil</p>
+          <p class="serviceprice">R$25,00</p>
+        </div>
+        <div id="lastservice" class="service">
+          <p class="servicename">Pigmentação de Barba</p>
+          <p class="serviceprice">R$30,00</p>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div id="footer-container">
+        <div id="footerlogo">
+          <h1 id="footerh1">PRIME CUT</h1>
+          <span id="footersublogo">BARBERSHOP</span>
+        </div>
+        <div id="footerinformations">
+            <ul class="footerlist">
+                <li class="footerlistitem"><i class="fa-brands fa-whatsapp"></i> (21) 99000-0000</li>
+                <li class="footerlistitem"><i class="fa-brands fa-instagram"></i> @prime_cut_barbershop</li>
+                <li class="footerlistitem"><i class="fa-solid fa-location-pin"></i>Rua das Palmeiras, 247 – Copacabana, Rio de Janeiro - RJ</li>
+            </ul>
+        </div>
+      </div>
+      <p id="credit">Criado por: <strong>Vitor Malaspini</strong></p>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
