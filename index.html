@@ -13,18 +13,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prime Cut - BarberShop</title>
-    <link rel="shortcut icon" href="src/favicon64.ico" sizes="64x64" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="src/favicon64.ico"
+      sizes="64x64"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header id="header">
       <h2 id="headertittle">PRIME CUT</h2>
       <ul id="headerlinks">
-        <li><a href="#home" class="headerlink">Inicio</a></li>
-        <li><a href="#about" class="headerlink">Sobre Nós</a></li>
-        <li><a href="#workers" class="headerlink">Profissionais</a></li>
-        <li><a href="#footer" class="headerlink">Contato</a></li>
+        <li><a onclick="autualizarheader()" href="#home" class="headerlink">Inicio</a></li>
+        <li><a onclick="autualizarheader()" href="#about" class="headerlink">Sobre Nós</a></li>
+        <li><a onclick="autualizarheader()" href="#workers" class="headerlink">Profissionais</a></li>
+        <li><a onclick="autualizarheader()" href="#services" class="headerlink">Serviços</a></li>
+        <li><a onclick="autualizarheader()" href="#footer" class="headerlink">Contato</a></li>
       </ul>
+      <i id="openlinks" class="fa-solid fa-bars" onclick="linksmenu()"></i>
     </header>
     <section id="home">
       <div id="mainhomearea">
@@ -121,15 +128,22 @@
           <span id="footersublogo">BARBERSHOP</span>
         </div>
         <div id="footerinformations">
-            <ul class="footerlist">
-                <li class="footerlistitem"><i class="fa-brands fa-whatsapp"></i> (21) 99000-0000</li>
-                <li class="footerlistitem"><i class="fa-brands fa-instagram"></i> @prime_cut_barbershop</li>
-                <li class="footerlistitem"><i class="fa-solid fa-location-pin"></i>Rua das Palmeiras, 247 – Copacabana, Rio de Janeiro - RJ</li>
-            </ul>
+          <ul class="footerlist">
+            <li class="footerlistitem">
+              <i class="fa-brands fa-whatsapp"></i> (21) 99000-0000
+            </li>
+            <li class="footerlistitem">
+              <i class="fa-brands fa-instagram"></i> @prime_cut_barbershop
+            </li>
+            <li class="footerlistitem">
+              <i class="fa-solid fa-location-pin"></i>Rua das Palmeiras, 247 –
+              Copacabana, Rio de Janeiro - RJ
+            </li>
+          </ul>
         </div>
       </div>
-      <p id="credit">Criado por: <strong>Vitor Malaspini</strong></p>
     </footer>
+    <p id="credit">Criado por: <strong>Vitor Malaspini</strong></p>
     <script src="script.js"></script>
   </body>
 </html>
