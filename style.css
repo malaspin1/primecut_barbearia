@@ -74,6 +74,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  text-align: center;
 }
 
 #mainareatittle {
@@ -348,10 +349,30 @@ body {
   #services-container {
     width: 100%;
   }
+
+  #barbershopspan {
+    display: block;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2rem;
+  }
+
+  #barbershopspan::before,
+  #barbershopspan::after,
   #workerspan::before,
   #workerspan::after,
   #servicesspan::after,
   #servicesspan::before {
     content: none;
+  }
+
+  #about-container {
+    width: 95%;
+  }
+  #about-container > p {
+    margin: 1%;
+    font-size: 0.8rem;
+    font-family: var(--normaltextfont);
+    text-indent: 5px;
   }
 }
